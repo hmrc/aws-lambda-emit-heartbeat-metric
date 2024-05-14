@@ -1,8 +1,7 @@
-
 # aws-lambda-emit-heartbeat-metric
 
-This is a placeholder README.md for a new repository
+Simply emits a metric that goes between 0 and 1 every 2 minutes. Used as a heartbeat to test alerting.
 
-### License
+### Ownership
 
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+The infrastructure and lambda handler are owned and maintained by Team Telemetry.

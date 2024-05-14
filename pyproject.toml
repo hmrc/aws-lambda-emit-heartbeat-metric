@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aws-lambda-emit-heartbeat-metric"
+version = "0.0.1"
+description = "Simply emits a metric that goes between 0 and 1 every 2 minutes. Used as a heartbeat to test alerting."
+authors = ["MDTP Telemetry"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+graphyte = "^1.7.1"
+aws-lambda-powertools = "^2.37.0"
+datetime = "^5.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+pre-commit = "^3.7.0"
