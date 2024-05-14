@@ -744,6 +744,22 @@ url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
 reference = "artifactory"
 
 [[package]]
+name = "mypy-extensions"
+version = "1.0.0"
+description = "Type system extensions for programs checked with the mypy type checker."
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
+    {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
+reference = "artifactory"
+
+[[package]]
 name = "nodeenv"
 version = "1.8.0"
 description = "Node.js virtual environment builder"
@@ -779,6 +795,22 @@ url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
 reference = "artifactory"
 
 [[package]]
+name = "pathspec"
+version = "0.12.1"
+description = "Utility library for gitignore style pattern matching of file paths."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pathspec-0.12.1-py3-none-any.whl", hash = "sha256:a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08"},
+    {file = "pathspec-0.12.1.tar.gz", hash = "sha256:a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
+reference = "artifactory"
+
+[[package]]
 name = "pbr"
 version = "6.0.0"
 description = "Python Build Reasonableness"
@@ -787,6 +819,22 @@ python-versions = ">=2.6"
 files = [
     {file = "pbr-6.0.0-py2.py3-none-any.whl", hash = "sha256:4a7317d5e3b17a3dccb6a8cfe67dab65b20551404c52c8ed41279fa4f0cb4cda"},
     {file = "pbr-6.0.0.tar.gz", hash = "sha256:d1377122a5a00e2f940ee482999518efe16d745d423a670c27773dfbc3c9a7d9"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
+reference = "artifactory"
+
+[[package]]
+name = "platformdirs"
+version = "4.2.1"
+description = ""
+optional = false
+python-versions = "*"
+files = [
+    {file = "platformdirs-4.2.1-py3-none-any.whl", hash = "sha256:17d5a1161b3fd67b390023cb2d3b026bbd40abde6fdb052dfbd3a29c3ba22ee1"},
+    {file = "platformdirs-4.2.1.tar.gz", hash = "sha256:031cd18d4ec63ec53e82dceaac0417d218a6863f7745dfcc9efe7793b7039bdf"},
 ]
 
 [package.source]
@@ -1419,4 +1467,4 @@ reference = "artifactory"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "26f6595501b51662a49131d6cf317af98ddb2550aa6fda7ee437d16ca153d229"
+content-hash = "31de5bb0690a662e0e428a6e41a50a27c7d7ca0c2b0cb7342732b77b336c90ce"
