@@ -26,6 +26,7 @@ cookiecutter = "^2.6.0"
 version-incrementor = "^1.10.0"
 cruft = "^2.15.0"
 coverage = "^7.4.4"
+jmespath = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core"]
