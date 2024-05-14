@@ -2,13 +2,9 @@ import datetime
 import os
 
 import graphyte
-from aws_lambda_powertools import Logger
-from aws_lambda_powertools.utilities.typing import LambdaContext
-
-logging = Logger(service="aws-lambda-emit-heartbeat-metric")
 
 
-def lambda_handler(event, context: LambdaContext):
+def lambda_handler(event):
     graphite_host = os.getenv("GRAPHITE_HOST", "graphite-collectd")
     graphite_metric_prefix = os.getenv("GRAPHITE_METRIC_PREFIX", "container-insights")
 
