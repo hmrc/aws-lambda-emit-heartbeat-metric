@@ -4,7 +4,7 @@ import os
 import graphyte
 
 
-def lambda_handler(event):
+def lambda_handler(event, context):
     graphite_host = os.getenv("GRAPHITE_HOST", "graphite-collectd")
     graphite_metric_prefix = os.getenv("GRAPHITE_METRIC_PREFIX", "container-insights")
 
