@@ -25,35 +25,6 @@ url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
 reference = "artifactory"
 
 [[package]]
-name = "aws-lambda-powertools"
-version = "2.37.0"
-description = "Powertools for AWS Lambda (Python) is a developer toolkit to implement Serverless best practices and increase developer velocity."
-optional = false
-python-versions = ">=3.8,<4.0.0"
-files = [
-    {file = "aws_lambda_powertools-2.37.0-py3-none-any.whl", hash = "sha256:6845995d7b0debc5b85c6d97b4336d9c536ade723d45cdc5a081477e4daa65e2"},
-    {file = "aws_lambda_powertools-2.37.0.tar.gz", hash = "sha256:a49dacba249e6db860d59314e4620648c1691727cf43e465e8f0907f699dc5e8"},
-]
-
-[package.dependencies]
-typing-extensions = ">=4.11.0,<5.0.0"
-
-[package.extras]
-all = ["aws-xray-sdk (>=2.8.0,<3.0.0)", "fastjsonschema (>=2.14.5,<3.0.0)", "pydantic (>=1.8.2,<2.0.0)"]
-aws-sdk = ["boto3 (>=1.26.164,<2.0.0)"]
-datadog = ["datadog-lambda (>=4.77,<6.0)"]
-datamasking = ["aws-encryption-sdk (>=3.1.1,<4.0.0)", "jsonpath-ng (>=1.6.0,<2.0.0)"]
-parser = ["pydantic (>=1.8.2,<2.0.0)"]
-redis = ["redis (>=4.4,<6.0)"]
-tracer = ["aws-xray-sdk (>=2.8.0,<3.0.0)"]
-validation = ["fastjsonschema (>=2.14.5,<3.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
-reference = "artifactory"
-
-[[package]]
 name = "bandit"
 version = "1.7.8"
 description = "Security oriented static analyser for python code."
@@ -631,22 +602,6 @@ MarkupSafe = ">=2.0"
 
 [package.extras]
 i18n = ["Babel (>=2.7)"]
-
-[package.source]
-type = "legacy"
-url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple"
-reference = "artifactory"
-
-[[package]]
-name = "jmespath"
-version = "1.0.1"
-description = "JSON Matching Expressions"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"},
-    {file = "jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"},
-]
 
 [package.source]
 type = "legacy"
@@ -1464,4 +1419,4 @@ reference = "artifactory"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e358e09a71636be71ba1d505273a95b6dee79dd9f173849d2944359ba83a478d"
+content-hash = "26f6595501b51662a49131d6cf317af98ddb2550aa6fda7ee437d16ca153d229"
