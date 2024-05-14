@@ -5,11 +5,27 @@ description = "Simply emits a metric that goes between 0 and 1 every 2 minutes. 
 authors = ["MDTP Telemetry"]
 readme = "README.md"
 
+[[tool.poetry.source]]
+name = "artifactory"
+url = "https://artefacts.tax.service.gov.uk/artifactory/api/pypi/pips/simple/"
+priority = "primary"
+
 [tool.poetry.dependencies]
 python = "^3.10"
-graphyte = "^1.7.1"
 aws-lambda-powertools = "^2.37.0"
 datetime = "^5.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+flake8 = "^7.0.0"
+bandit = "^1.7.8"
+pre-commit = "^3.3.3"
+black = "^24.4.0"
+cookiecutter = "^2.6.0"
+version-incrementor = "^1.10.0"
+cruft = "^2.15.0"
+coverage = "^7.4.4"
 
 [build-system]
 requires = ["poetry-core"]
