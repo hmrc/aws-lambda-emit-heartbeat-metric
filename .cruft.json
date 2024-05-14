@@ -11,8 +11,8 @@
       "lambda_handler": "emit_heartbeat_metric",
       "lambda_name": "emit-heartbeat-metric",
       "lambda_name_formatted": "emit-heartbeat-metric",
-      "python_version": "3.9",
-      "python_version_full": "3.9.15",
+      "python_version": "3.10",
+      "python_version_full": "3.10.8",
       "unit_test_style": "pytest",
       "_template": "https://github.com/hmrc/telemetry-lambda-resources"
     }
