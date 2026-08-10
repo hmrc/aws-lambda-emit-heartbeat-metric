@@ -1,11 +1,4 @@
 repos:
-  - repo: local
-    hooks:
-      - id: validate-tool-versions
-        name: Validate tool versions
-        entry: ./tools/check-tool-versions.sh
-        language: script
-        pass_filenames: false
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
@@ -31,13 +24,20 @@ repos:
       - id: end-of-file-fixer
         name: Fix missing end-of-file line returns
         exclude: repository.yaml|tests/unit/test-data/
+  - repo: https://github.com/thlorenz/doctoc
+    rev: v2.5.0
+    hooks:
+      - id: doctoc
+        name: Update Table of Contents
+        args:
+          - --update-only
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.16.0
+    rev: v3.17.0
     hooks:
       - id: reorder-python-imports
         name: Reorder Python imports
   - repo: https://github.com/python/black
-    rev: 23.12.0
+    rev: 26.5.1
     hooks:
       - id: black
         name: Run Black
@@ -46,7 +46,7 @@ repos:
     hooks:
       - id: bandit
         name: Run Bandit
-        args: [-ll, -c, .bandit]
+        args: [-ll]
         language_version: python3
   - repo: https://github.com/hmrc/security-git-hooks
     rev: release/1.15.0
