@@ -1,12 +1,11 @@
-"""Send data to Graphite metrics server (synchronously or on a background thread).
-
-For example usage, see README.rst.
-
-This code is licensed under a permissive MIT license -- see LICENSE.txt.
-
-The graphyte project lives on GitHub here:
-https://github.com/benhoyt/graphyte
-"""
+# Send data to Graphite metrics server (synchronously or on a background thread).
+#
+# For example usage, see README.rst.
+#
+# This code is licensed under a permissive MIT license -- see LICENSE.txt.
+#
+# The graphyte project lives on GitHub here:
+# https://github.com/benhoyt/graphyte
 import atexit
 import logging
 
